@@ -20,6 +20,7 @@ import Portfolio5 from "./components/layout/portfolio/Portfolio5";
 import Cursor from "./components/common/Cursor";
 import Contact from "./components/layout/Contact";
 import Portfolio6 from "./components/layout/portfolio/Portfolio6";
+import Portfolio7 from "./components/layout/portfolio/Portfolio7";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -82,14 +83,16 @@ function App() {
       .to(".port3", { duration: 2, y: 0 })
       .to(".port6", { duration: 2, y: 0 })
       .to(".port4", { duration: 2, y: 0 })
-      .to(".port5", { duration: 2, y: 0 });
+      .to(".port5", { duration: 2, y: 0 })
+      .to(".port7", { duration: 2, y: 0 })
+      ;
 
     gsap
       .timeline({
         scrollTrigger: {
           trigger: ".contactbox",
           start: "top top",
-          end: "bottom bottom",
+          end: "center bottom",
           pin: true,
         },
       })
@@ -154,13 +157,14 @@ function App() {
         <Portfolio6 />
         <Portfolio4 />
         <Portfolio5 />
+        <Portfolio7/>
       </section>
       <section
         className="contactbox"
         style={{
           width: "100%",
           backgroundColor: "black",
-          padding: "180px 0px 200px 0px",
+          padding: "300px 0px 200px 0px",
         }}
       >
         <Contact />
