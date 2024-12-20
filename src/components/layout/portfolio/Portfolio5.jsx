@@ -15,7 +15,6 @@ const Portfolio5 = () => {
         color: "black",
         padding: "100px 0px 250px 0px",
         position: "absolute",
-
         transform: "translateY(1000px)",
         top: "0px",
       }}

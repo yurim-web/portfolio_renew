@@ -16,6 +16,7 @@ const Portfolio1 = () => {
         padding: "100px 0px 250px 0px",
         position: "absoulte",
         top: "0px",
+        transform: "translateY(1000px)",
       }}
     >
       <article

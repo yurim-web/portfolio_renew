@@ -14,7 +14,7 @@ const EductionBox = ({ title, date }) => {
         <p>
           <span
             style={{
-              fontSize: "25px",
+              fontSize: "24px",
               fontWeight: 700,
               marginRight: "15px",
             }}

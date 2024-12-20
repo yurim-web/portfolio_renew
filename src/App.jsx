@@ -79,13 +79,13 @@ function App() {
           scrub: 1,
         },
       })
-      .to(".port2", { duration: 2, y: 0 })
-      .to(".port3", { duration: 2, y: 0 })
-      .to(".port6", { duration: 2, y: 0 })
-      .to(".port4", { duration: 2, y: 0 })
+
       .to(".port5", { duration: 2, y: 0 })
-      .to(".port7", { duration: 2, y: 0 })
-      ;
+      .to(".port4", { duration: 2, y: 0 })
+      .to(".port6", { duration: 2, y: 0 })
+      .to(".port3", { duration: 2, y: 0 })
+      .to(".port2", { duration: 2, y: 0 })
+      .to(".port1", { duration: 2, y: 0 });
 
     gsap
       .timeline({
@@ -151,13 +151,13 @@ function App() {
         className="portbox"
         style={{ width: "100%", position: "relative" }}
       >
-        <Portfolio1 />
-        <Portfolio2 />
-        <Portfolio3 />
-        <Portfolio6 />
-        <Portfolio4 />
+        <Portfolio7 />
         <Portfolio5 />
-        <Portfolio7/>
+        <Portfolio4 />
+        <Portfolio6 />
+        <Portfolio3 />
+        <Portfolio2 />
+        <Portfolio1 />
       </section>
       <section
         className="contactbox"

@@ -16,7 +16,6 @@ const Portfolio7 = () => {
         padding: "100px 0px 250px 0px",
         position: "absolute",
 
-        transform: "translateY(1000px)",
         top: "0px",
       }}
     >
@@ -105,7 +104,6 @@ const Portfolio7 = () => {
               style={{ cursor: "hand" }}
               href="https://yurim-web.github.io/groundplace_clone/"
             >
-          
               <button
                 style={{
                   width: "100%",
