@@ -3,7 +3,7 @@ const SolidlineText = ({ text }) => {
     <h1
       style={{
         color: "#00adb4",
-        fontSize: "145px",
+        fontSize: "8vw",
         fontFamily: "Bold",
       }}
     >

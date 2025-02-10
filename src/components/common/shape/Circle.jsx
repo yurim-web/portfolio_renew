@@ -2,11 +2,12 @@ const Circle = () => {
   return (
     <div
       style={{
-        width: "500px",
-        height: "500px",
-        borderRadius: "999px",
+        width: "30vw",
+        height: "30vw",
+        borderRadius: "50%",
         backgroundColor: "white",
         zIndex: "2",
+        margin: "0 auto",
       }}
     ></div>
   );

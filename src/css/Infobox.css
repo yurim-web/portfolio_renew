@@ -1,0 +1,122 @@
+.infobox {
+    border-radius: 20px;
+    width: 100%;
+    background-color: #fff9e8;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 60px 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .infobox-header h1 {
+    color: #00adb4;
+    font-size: 2.5rem;
+    font-family: "Bold";
+    text-align: center;
+  }
+  
+  .infobox-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+  }
+  
+  .profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .infobox-section {
+    flex: 1;
+    min-width: 280px;
+  }
+  
+  .infobox-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    line-height: 1.5;
+  }
+  
+  .infobox-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .infobox-title h1 {
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  .infobox-divider {
+    width: 100%;
+    height: 2px;
+    background-color: black;
+  }
+  
+  .infobox-footer {
+    text-align: center;
+  }
+  
+  .infobox-footer strong {
+    font-size: 1.5rem;
+    color: #00adb4;
+    font-weight: 700;
+  }
+  
+  .infobox-description {
+    line-height: 1.6;
+    margin-top: 15px;
+  }
+  
+  .infobox-description p {
+    margin: 0.5rem 0;
+  }
+  
+  /* 반응형 스타일 */
+  @media (max-width: 768px) {
+    .infobox {
+      padding: 40px 20px;
+    }
+  
+    .infobox-content {
+      flex-direction: column;
+      gap: 20px;
+    }
+  
+    .profile-image {
+      width: 180px;
+      height: 180px;
+    }
+  
+    .infobox-header h1 {
+      font-size: 2rem;
+    }
+  
+    .infobox-title h1 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  /* @media (max-width: 480px) {
+    .infobox {
+      padding: 20px 10px;
+    }
+  
+    .infobox-header h1 {
+      font-size: 1.8rem;
+    }
+  
+    .infobox-footer strong {
+      font-size: 1.2rem;
+    }
+  } */
+  

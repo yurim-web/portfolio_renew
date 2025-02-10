@@ -102,7 +102,7 @@ const Portfolio7 = () => {
             </div>
             <a
               style={{ cursor: "hand" }}
-              href="https://yurim-web.github.io/groundplace_clone/"
+              href="https://yurim-web.github.io/groundplace_clone/" target="_blank"
             >
               <button
                 style={{

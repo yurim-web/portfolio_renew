@@ -101,7 +101,7 @@ const Portfolio5 = () => {
             </div>
             <a
               style={{ cursor: "hand" }}
-              href="https://movie-api-portfolio.vercel.app/"
+              href="https://movie-api-portfolio.vercel.app/" target="_blank"
             >
               {" "}
               <button

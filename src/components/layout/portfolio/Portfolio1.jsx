@@ -99,7 +99,7 @@ const Portfolio1 = () => {
             </div>
             <a
               style={{ cursor: "hand" }}
-              href="https://yurim-web.github.io/gangnam/index.html"
+              href="https://yurim-web.github.io/gangnam/index.html" target="_blank"s
             >
               <button
                 style={{

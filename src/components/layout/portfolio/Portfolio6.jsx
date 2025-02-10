@@ -101,7 +101,7 @@ const Portfolio6 = () => {
             </div>
             <a
               style={{ cursor: "hand" }}
-              href="https://yurim-web.github.io/avengers_portfolio/"
+              href="https://yurim-web.github.io/avengers_portfolio/" target="_blank"
             >
               {" "}
               <button

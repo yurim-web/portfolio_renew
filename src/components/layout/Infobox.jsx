@@ -142,3 +142,4 @@ const Infobox = () => {
 };
 
 export default Infobox;
+

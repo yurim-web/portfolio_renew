@@ -101,7 +101,7 @@ const Portfolio2 = () => {
             </div>
             <a
               style={{ cursor: "hand" }}
-              href="https://yurim-web.github.io/apple_clone_page2/"
+              href="https://yurim-web.github.io/apple_clone_page2/" target="_blank"
             >
               {" "}
               <button
