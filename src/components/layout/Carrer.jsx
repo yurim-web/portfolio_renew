@@ -1,53 +1,16 @@
 import EductionBox from "../common/box/EductionBox";
 import ExperienceBox from "../common/box/ExperienceBox";
+import "../../css/Carrer.css";
+
 
 const Carrer = () => {
   return (
     <section
-      className="carrer"
-      style={{
-        padding: "300px 0px 200px 0px",
-        backgroundColor: "black",
-        color: "white",
-        width: "100%",
-      }}
-    >
+      className="carrer">
       <article
-        className="exp"
-        style={{
-          width: "100%",
-          maxWidth: "950px",
-          margin: "0 auto",
-          display: "flex",
-          flexDirection: "column",
-          gap: "30px",
-        }}
-      >
-        <div
-          style={{
-            padding: " 120px 80px 140px 80px",
-            borderWidth: " 0px 0px 0px 7px",
-            borderStyle: "solid",
-            borderColor: " rgb(200, 75, 49)",
-            width: "50%",
-            display: "flex",
-            flexDirection: "column",
-            gap: "60px",
-            position: "relative",
-          }}
-        >
-          <div
-            style={{
-              backgroundColor: " rgb(200, 75, 49)",
-              width: "70px",
-              height: "8px",
-              position: "absolute",
-              left: "-10px",
-              bottom: "22px",
-              transform: "rotate(-40deg)",
-            }}
-          ></div>
-          {/* 화살표 막대기 */}
+        className="exp">
+        <div className="carrer_left_line">
+          <div className="carrer_left_arrow"></div>
 
           <ExperienceBox
             title={"(주)쇼엠"}
@@ -60,58 +23,15 @@ const Carrer = () => {
             detail={"콘텐츠팀 - 콘텐츠 기획 및 디자인 등"}
           />
         </div>
-        <div
-          style={{
-            backgroundColor: " rgb(200, 75, 49)",
-            width: "300px",
-            padding: "5px 0px",
-            fontWeight: 700,
-            textAlign: "center",
-            fontSize: "40px",
-            position: "absolute",
-            fontFamily: "Bold",
-          }}
-        >
+        <div className="carrer_title">
           EXPERIENCE
         </div>
       </article>
+
       <article
-        className="exp2"
-        style={{
-          width: "100%",
-          maxWidth: "950px",
-          margin: "0 auto",
-          display: "flex",
-          flexDirection: "column",
-          gap: "30px",
-          alignItems: "flex-end",
-        }}
-      >
-        <div
-          style={{
-            padding: " 120px 80px 140px 80px",
-            borderWidth: " 0px 7px 0px 0px",
-            borderStyle: "solid",
-            borderColor: " rgb(200, 75, 49)",
-            width: "80%",
-            display: "flex",
-            flexDirection: "column",
-            gap: "60px",
-            position: "relative",
-          }}
-        >
-          <div
-            style={{
-              backgroundColor: " rgb(200, 75, 49)",
-              width: "70px",
-              height: "8px",
-              position: "absolute",
-              right: "-10px",
-              bottom: "22px",
-              transform: "rotate(40deg)",
-              alignItems: "flex-end",
-            }}
-          ></div>
+        className="exp2">
+        <divn className="carrer_right_line">
+          <div className="carrer_right_arrow"></div>
 
           <EductionBox
             title={
@@ -134,19 +54,8 @@ const Carrer = () => {
             title={"정보기술자격(ITQ) 한글파워포인트"}
             date={"2010.03"}
           />
-        </div>
-        <div
-          style={{
-            backgroundColor: " rgb(200, 75, 49)",
-            width: "520px",
-            padding: "5px 0px",
-            fontWeight: 700,
-            textAlign: "center",
-            fontSize: "40px",
-            position: "absolute",
-            fontFamily: "Bold",
-          }}
-        >
+        </divn>
+        <div className="carrer_title">
           LICENSE & EDUCATION
         </div>
       </article>

@@ -1,26 +1,16 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/all";
+import "../../../css/Carrer.css";
+
+
 gsap.registerPlugin(ScrollTrigger);
 const ExperienceBox = ({ title, date, detail }) => {
   return (
     <div style={{ perspective: "1000px" }}>
       <div
-        className="para"
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "10px",
-          transform: "rotateX(90deg)",
-        }}
-      >
+        className="para">
         <p>
-          <span
-            style={{
-              fontSize: "30px",
-              fontWeight: 700,
-              marginRight: "15px",
-            }}
-          >
+          <span className="experience_title">
             {title}
           </span>
           <span>{date}</span>

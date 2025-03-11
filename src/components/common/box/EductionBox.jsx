@@ -1,24 +1,13 @@
+import "../../../css/Carrer.css";
+
+
 const EductionBox = ({ title, date }) => {
   return (
     <div style={{ perspective: "1000px" }}>
       <div
-        className="para2"
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          gap: "10px",
-          textAlign: "end",
-          transform: "rotateX(90deg)",
-        }}
-      >
+        className="para2">
         <p>
-          <span
-            style={{
-              fontSize: "24px",
-              fontWeight: 700,
-              marginRight: "15px",
-            }}
-          >
+          <span className="education_title">
             {title}
           </span>
         </p>

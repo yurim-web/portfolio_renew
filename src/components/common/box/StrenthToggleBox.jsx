@@ -1,8 +1,9 @@
 import StrengthToggle from "../button/StrengthToggle";
+import "../../../css/Strength.css";
 
 const StrenthToggleBox = () => {
   return (
-    <div style={{ display: "flex", gap: "10px" }}>
+    <div className="strength_toggle_container">
       <StrengthToggle strength={"HTML"} />
       <StrengthToggle strength={"CSS"} />
       <StrengthToggle strength={"Javascript"} />

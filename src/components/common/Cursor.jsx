@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 
+// 마우스 효과
 const Cursor = () => {
   const [position, setpostion] = useState({ x: 0, y: 0 });
 

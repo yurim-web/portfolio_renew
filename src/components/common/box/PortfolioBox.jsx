@@ -1,15 +1,10 @@
+import "../../../css/Portfolio.css";
+
 const PortfolioBox = ({ value, title }) => {
   return (
-    <div
-      style={{
-        display: "flex",
-        alignItems: "center",
-        gap: "0px",
-        padding: "15px 0px",
-      }}
-    >
-      <h3 style={{ fontSize: "20px", width: "40%" }}>{title}</h3>
-      <p style={{ width: "80%",lineHeight:"1.5" }}>{value}</p>
+    <div className="port_text_box">
+      <h3 className="port_text_title">{title}</h3>
+      <p className="port_text_value">{value}</p>
     </div>
   );
 };

@@ -1,25 +1,22 @@
 import ImgBox from "../../common/box/ImgBox";
 import PortfolioBox from "../../common/box/PortfolioBox";
 import Stack from "../../common/button/Stack";
-// import "../../../css/Portfolio.css";
 
+// imele 클론 코딩 포트폴리오
 
-
-// 강남언니 클론코딩 포트폴리오
-
-const Portfolio1 = () => {
+const Portfolio8 = () => {
   return (
     <section
-      className="port1"
+      className="port8"
       style={{
         width: "100%",
-        backgroundColor: "#ff540f",
+        backgroundColor: "#eeece9",
         height: "600px",
-        color: "white",
+        color: "black",
         padding: "100px 0px 250px 0px",
-        position: "absoulte",
-        top: "0px",
+        position: "absolute",
         transform: "translateY(1000px)",
+        top: "0px",
       }}
     >
       <article
@@ -41,7 +38,7 @@ const Portfolio1 = () => {
             gap: "90px",
           }}
         >
-          <ImgBox img={"강남언니.png"} />
+          <ImgBox img={"IMELE.png"} />
           <div
             style={{
               width: "100%",
@@ -57,25 +54,24 @@ const Portfolio1 = () => {
                 fontWeight: 700,
               }}
             >
-              강남언니 클론코딩
+              IMELE 클론 코딩
             </h1>
             <div
               style={{
                 width: "100%",
                 height: "3px",
-                backgroundColor: "white",
+                backgroundColor: "black",
               }}
             ></div>
-
             <PortfolioBox
               title={"제작기간"}
-              value={"2024.10.25 ~ 2024.10.28"}
+              value={"2025.01.02 ~ 2025.01.06"}
             />
             <PortfolioBox title={"참여도"} value={"개인 100%"} />
             <PortfolioBox
               title={"내용"}
               value={
-                "이 웹사이트는 강남언니 공식 사이트의 PC 버전을 클론 코딩한 작품입니다. HTML과 CSS만을 사용하여 메인 페이지와 두 개의 서브페이지를 구성하고, 직관적인 디자인으로 강남언니 웹사이트를 재현했습니다."
+                "이 웹사이트는 IMILE 공식 사이트를 코딩하여 만든 작품입니다. HTML, CSS, JavaScript를 사용하여 웹페이지를 구축하고, 반응형 웹 디자인을 다양한 크기에서 최적화된 사용자 환경을 제공했습니다. 또한 GSAP.js를 활용해 애니메이션적인 효과를 구현했습니다."
               }
             />
 
@@ -98,21 +94,27 @@ const Portfolio1 = () => {
               >
                 <Stack stack={"HTML"} bgcolor={"#FFC0C1"} />
                 <Stack stack={"CSS"} bgcolor={"#C0D6FF"} />
+                <Stack stack={"Javascript"} bgcolor={"#C3FFC0"} />
+                <Stack stack={"Gsap.js"} bgcolor={"#C0FFF0"} />
+
               </div>
             </div>
             <a
               style={{ cursor: "hand" }}
-              href="https://yurim-web.github.io/gangnam/index.html" target="_blank"
+              href="https://yurim-web.github.io/imele_clone/" target="_blank"
             >
+              {" "}
               <button
                 style={{
                   width: "100%",
-                  borderRadius: "10px",
                   padding: "20px",
+                  borderRadius: "10px",
                   border: "none",
                   boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
-                  fontSize: "20px",
-                  marginTop: "60px",
+                  marginTop: "20px",
+                  fontSize: "20PX",
+                  backgroundColor: "black",
+                  color: "white",
                 }}
               >
                 LINK
@@ -125,4 +127,4 @@ const Portfolio1 = () => {
   );
 };
 
-export default Portfolio1;
+export default Portfolio8;

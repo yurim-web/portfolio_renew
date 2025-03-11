@@ -1,5 +1,11 @@
 import "./css/background.css";
 import "./css/App.css";
+import "./css/Strength.css";
+import "./css/Infobox.css";
+import "./css/Carrer.css";
+// import "./css/Portfolio.css";
+
+
 
 import { useEffect, useRef } from "react";
 import Circle from "./components/common/shape/Circle";
@@ -21,6 +27,7 @@ import Cursor from "./components/common/Cursor";
 import Contact from "./components/layout/Contact";
 import Portfolio6 from "./components/layout/portfolio/Portfolio6";
 import Portfolio7 from "./components/layout/portfolio/Portfolio7";
+import Portfolio8 from "./components/layout/portfolio/Portfolio8";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -63,7 +70,6 @@ function App() {
           trigger: ".exp2",
           start: "top center",
           end: "bottom center",
-
           scrub: true,
         },
       })
@@ -79,7 +85,7 @@ function App() {
           scrub: 1,
         },
       })
-
+      .to(".port8", { duration: 2, y: 0 })
       .to(".port5", { duration: 2, y: 0 })
       .to(".port4", { duration: 2, y: 0 })
       .to(".port6", { duration: 2, y: 0 })
@@ -104,14 +110,7 @@ function App() {
       <Cursor />
       <div className="main"></div>
       <div
-        className="test"
-        style={{
-          backgroundColor: "black",
-          width: "100%",
-          paddingTop: "300px",
-          height: "800px",
-        }}
-      >
+        className="test">
         <section
           style={{
             display: "flex",
@@ -136,13 +135,7 @@ function App() {
           <Infobox />
         </section>
       </div>
-      <section
-        style={{
-          backgroundColor: "black",
-          width: "100%",
-          paddingTop: "200px",
-        }}
-      >
+      <section className="strength_section">
         <Strength />
       </section>
 
@@ -151,7 +144,9 @@ function App() {
         className="portbox"
         style={{ width: "100%", position: "relative" }}
       >
+        
         <Portfolio7 />
+        <Portfolio8 />
         <Portfolio5 />
         <Portfolio4 />
         <Portfolio6 />

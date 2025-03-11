@@ -1,0 +1,141 @@
+/* Carrer.jsx */
+.carrer {
+  width: 100%;
+  padding: 300px 0px 200px 0px;
+  background-color: black;
+  color: white;
+}
+
+.exp {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.carrer_left_line {
+  padding: 120px 80px 140px 80px;
+  border-width: 0px 0px 0px 7px;
+  border-style: solid;
+  border-color: rgb(200, 75, 49);
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  position: relative;
+}
+
+.carrer_left_arrow {
+  background-color: rgb(200, 75, 49);
+  width: 70px;
+  height: 8px;
+  position: absolute;
+  left: -10px;
+  bottom: 22px;
+  transform: rotate(-40deg);
+}
+
+.carrer_title {
+  background-color: rgb(200, 75, 49);
+  padding: 12px;
+  font-weight: 700;
+  text-align: center;
+  font-size: 40px;
+  position: absolute;
+  font-family: "Bold";
+}
+
+.exp2 {
+  width: 100%;
+  max-width: 950px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: flex-end;
+}
+
+.carrer_right_line {
+  padding: 120px 80px 140px 80px;
+  border-width: 0px 7px 0px 0px;
+  border-style: solid;
+  border-color: rgb(200, 75, 49);
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  position: relative;
+}
+.carrer_right_arrow {
+  background-color: rgb(200, 75, 49);
+  width: 70px;
+  height: 8px;
+  position: absolute;
+  right: -10px;
+  bottom: 22px;
+  transform: rotate(40deg);
+  align-items: flex-end;
+}
+
+/* ExperienceBox.jsx */
+.para {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  transform: rotateX(90deg);
+}
+.experience_title {
+  font-size: 30px;
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+/* EductionBox.jsx */
+
+.para2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: end;
+  transform: rotateX(90deg);
+}
+
+.education_title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .carrer {
+    width: 100%;
+    padding: 150px 0px;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+  }
+  .exp {
+    width: 90%;
+  }
+  .exp2 {
+    margin-top: 50px;
+    width: 90%;
+  }
+
+  .carrer_title {
+    font-size: 30px;
+  }
+  .experience_title {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .education_title {
+    font-size: 19px;
+    line-height: 1.4;
+  }
+  .para {
+    width: 350px;
+  }
+}

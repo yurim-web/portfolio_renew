@@ -1,13 +1,11 @@
 import StrengthContents from "./StrengthContents";
+import "../../../css/Strength.css";
+
 
 const StrengthContentsBox = () => {
   return (
-    <div
-      style={{
-        display: "grid",
-        gridTemplateColumns: "repeat(2,1fr)",
-        gap: "50px",
-      }}
+    <div className="strength_content_container"
+
     >
       <StrengthContents
         contents={
