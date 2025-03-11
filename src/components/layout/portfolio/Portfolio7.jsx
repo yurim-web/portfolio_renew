@@ -25,7 +25,7 @@ const Portfolio7 = () => {
             <PortfolioBox
               title={"내용"}
               value={
-                "Groundplace 제주도 감성 숙소 공식 홈페이지를 클론 코딩하여, GSAP.js와 React를 활용해 동적인 사용자 경험을 구현했습니다. 아름다운 제주도의 분위기를 그대로 담아낸 인터랙티브한 웹사이트를 제작했습니다."
+                "Groundplace 제주도 감성 숙소 공식 홈페이지를 클론 코딩하여, GSAP.js와 React를 활용해 동적인 사용자 경험을 구현했습니다."
               }
             />
 

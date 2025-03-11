@@ -6,29 +6,8 @@ import Stack from "../../common/button/Stack";
 
 const Portfolio8 = () => {
   return (
-    <section
-      className="port8"
-      style={{
-        width: "100%",
-        backgroundColor: "#eeece9",
-        height: "600px",
-        color: "black",
-        padding: "100px 0px 250px 0px",
-        position: "absolute",
-        transform: "translateY(1000px)",
-        top: "0px",
-      }}
-    >
-      <article
-        style={{
-          width: "100%",
-          maxWidth: "950px",
-          margin: "0 auto",
-          display: "flex",
-          flexDirection: "column",
-          gap: "30px",
-        }}
-      >
+    <section className="port8">
+      <article className="port_container">
         <h1 style={{ fontSize: "50px", fontFamily: "Bold" }}>PORTFOLIO.</h1>
         <div
           style={{
@@ -96,12 +75,12 @@ const Portfolio8 = () => {
                 <Stack stack={"CSS"} bgcolor={"#C0D6FF"} />
                 <Stack stack={"Javascript"} bgcolor={"#C3FFC0"} />
                 <Stack stack={"Gsap.js"} bgcolor={"#C0FFF0"} />
-
               </div>
             </div>
             <a
               style={{ cursor: "hand" }}
-              href="https://yurim-web.github.io/imele_clone/" target="_blank"
+              href="https://yurim-web.github.io/imele_clone/"
+              target="_blank"
             >
               {" "}
               <button

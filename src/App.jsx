@@ -85,13 +85,13 @@ function App() {
           scrub: 1,
         },
       })
-      .to(".port8", { duration: 2, y: 0 })
-      .to(".port5", { duration: 2, y: 0 })
-      .to(".port4", { duration: 2, y: 0 })
-      .to(".port6", { duration: 2, y: 0 })
-      .to(".port3", { duration: 2, y: 0 })
-      .to(".port2", { duration: 2, y: 0 })
-      .to(".port1", { duration: 2, y: 0 });
+      .to(".port8", { duration: 3, y: 0 })
+      .to(".port5", { duration: 3, y: 0 })
+      .to(".port4", { duration: 3, y: 0 })
+      .to(".port6", { duration: 3, y: 0 })
+      .to(".port3", { duration: 3, y: 0 })
+      .to(".port2", { duration: 3, y: 0 })
+      .to(".port1", { duration: 3, y: 0 });
 
     gsap
       .timeline({

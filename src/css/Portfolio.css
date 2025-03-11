@@ -5,9 +5,18 @@
   background-color: #474f6f;
   color: white;
   display: flex;
-  align-items: center;
   position: absolute;
   top: 0px;
+}
+.port8{
+  width: 100%;
+  height: 100%;
+  background-color: #eeece9;
+  color: black;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  transform: translateY(1000px);
 }
 
 .port_container {
@@ -17,6 +26,7 @@
   display: flex;
   flex-direction: column;
   gap: 30px;
+  padding: 60px 0px;
 }
 
 .port_title {
@@ -27,13 +37,13 @@
   width: 100%;
   display: flex;
   justify-content: space-between;
-  gap: 90px;
+  gap: 60px;
 }
 .port_content {
   width: 100%;
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 15px;
 }
 .port_name {
   font-size: 30px;
@@ -42,43 +52,42 @@
 }
 .port_line {
   width: 100%;
-  height: 3px;
+  height: 2px;
   background-color: white;
 }
 
-.port_stack_box{
-    display: flex;
-    align-items: center;
-    gap: 0px;
-    padding: 15px 0px;
+.port_stack_box {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  padding: 15px 0px;
 }
-.port_stack_content{
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 9px;
-
+.port_stack_content {
+  width: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 9px;
 }
-.port_stack_box >h3{
-    font-size: 20px;
-    width:40% ;
+.port_stack_box > h3 {
+  font-size: 20px;
+  width: 30%;
 }
-.port_link_btn{
-    width: 100%;
-    padding: 20px;
-    border-radius: 10px;
-    border: none;
-    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-    margin-top: 20px;
-    font-size: 20px;
-    background-color: white;
-    color: black;
-    cursor: pointer;
+.port_link_btn {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 15px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  cursor: pointer;
 }
 /* ImgBox.jsx */
 .port_img_box {
   width: 900px;
-  height: 600px;
+  height: 500px;
   overflow: hidden;
 }
 .port_img {
@@ -86,21 +95,22 @@
   height: 100%;
   object-fit: cover;
   object-position: top;
-  transition: object-position 1.5s ease;
+  transition: object-position 4s ease;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .port_img_box:hover img {
-  object-position: bottom;}
+  object-position: bottom;
+}
 
 /* PortfolioBox.jsx */
 .port_text_box {
   display: flex;
   align-items: center;
-  padding: 15px 0px;
+  padding: 10px 0px;
 }
 .port_text_title {
   font-size: 20px;
-  width: 40%;
+  width: 30%;
 }
 .port_text_value {
   width: 80%;
@@ -109,20 +119,19 @@
 
 /* Stack.jsx */
 .stack_card {
-    color: black;
-    padding: 8px 15px;
-    background-color: var(--bgcolor); /* 동적인 배경색을 위한 변수 사용 */
-    border-radius: 7px;
-    font-weight: bold;
-    text-align: center;
-  }
+  color: black;
+  padding: 8px 13px;
+  background-color: var(--bgcolor);
+  border-radius: 7px;
+  font-weight: bold;
+  text-align: center;
+}
 
 @media screen and (max-width: 768px) {
-  .port7 {
-    padding: 0px;
-  }
   .port_container {
-    width: 90%;
+    width: 85%;
+    padding: 25px 0px;
+    gap: 18px;
   }
   .port_title {
     font-size: 30px;
@@ -142,27 +151,24 @@
     height: 1px;
   }
 
-  .port_stack_box{
+  .port_stack_box {
     padding: 5px 0px;
-}
-.port_stack_box >h3{
+  }
+  .port_stack_box > h3 {
     font-size: 15px;
-    width:30% ;
-}
+    width: 25%;
+  }
 
-.port_stack_content{
-    width: 80%;
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 9px;
-}
-
-
+  .port_stack_content {
+    width: 75%;
+    display: flex;
+    gap: 7px;
+  }
 
   /* ImgBox.jsx */
   .port_img_box {
-    width: 95%;
-    height: 320px;
+    width: 100%;
+    height: 270px;
     overflow: hidden;
   }
   .port_img {
@@ -170,7 +176,7 @@
     height: 100%;
     object-fit: cover;
     object-position: top;
-    transition: object-position 2s ease;
+    transition: object-position 5s ease;
   }
   .port_img_box:hover img {
     object-position: bottom;
@@ -182,31 +188,24 @@
   }
   .port_text_title {
     font-size: 15px;
-    width: 30%;
+    width: 25%;
   }
   .port_text_value {
-    width: 70%;
+    width: 75%;
     font-size: 12px;
   }
-  .port_stack_content{
-    width: 70%;
-   display: flex;
-    gap: 10px;
-}
 
-/* Stack.jsx */
-.stack_card {
-    font-size: 13px;
-    padding: 8px 15px;
+  /* Stack.jsx */
+  .stack_card {
+    font-size: 12px;
+    padding: 7px 9px;
     border-radius: 7px;
   }
-  .port_link_btn{
-    font-size: 17px;
+  .port_link_btn {
+    font-size: 15px;
     width: 100%;
     padding: 10px;
     border-radius: 8px;
-    margin-top: 10px;
-}
-
-
+    margin-top: 9px;
+  }
 }
