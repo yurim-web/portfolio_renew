@@ -13,9 +13,7 @@ const Portfolio7 = () => {
         <div className="port_content_box">
           <ImgBox img={"groundplace.png"} />
           <div className="port_content">
-            <h1 className="port_name">
-              Groundplace 클론코딩
-            </h1>
+            <h1 className="port_name">Groundplace 클론코딩</h1>
             <div className="port_line"></div>
             <PortfolioBox
               title={"제작기간"}
@@ -39,12 +37,11 @@ const Portfolio7 = () => {
                 <Stack stack={"React"} bgcolor={"#FFF0C0"} />
               </div>
             </div>
-            <a href="https://yurim-web.github.io/groundplace_clone/"
+            <a
+              href="https://yurim-web.github.io/groundplace_clone/"
               target="_blank"
             >
-              <button className="port_link_btn">
-                LINK
-              </button>
+              <button className="port_link_btn">LINK</button>
             </a>
           </div>
         </div>

@@ -8,7 +8,7 @@
   position: absolute;
   top: 0px;
 }
-.port8{
+.port8 {
   width: 100%;
   height: 100%;
   background-color: #eeece9;
@@ -18,6 +18,67 @@
   top: 0px;
   transform: translateY(1000px);
 }
+.port5 {
+  width: 100%;
+  height: 100%;
+  background-color: #77e4c8;
+  color: black;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  transform: translateY(1000px);
+}
+
+.port4 {
+  width: 100%;
+  height: 100%;
+  background-color: #a7313d;
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  transform: translateY(1000px);
+}
+.port6 {
+  width: 100%;
+  height: 100%;
+  background-color: #030514;
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  transform: translateY(1000px);
+}
+.port3 {
+  width: 100%;
+  height: 100%;
+  background-color: #001f3e;
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  transform: translateY(1000px);
+}
+.port2{
+  width: 100%;
+  height: 100%;
+  background-color: #dcdcd0;
+  color: black;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  transform: translateY(1000px);
+}
+/* .port1{
+  width: 100%;
+  height: 100%;
+  background-color: #ff540f;
+  color: white;
+  display: flex;
+  position: absolute;
+  top: 0px;
+  transform: translateY(1000px);
+} */
 
 .port_container {
   width: 100%;

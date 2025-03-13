@@ -1,17 +1,11 @@
 import ImgBox from "../../common/box/ImgBox";
 import PortfolioBox from "../../common/box/PortfolioBox";
 import Stack from "../../common/button/Stack";
-// import "../../../css/Portfolio.css";
-
-
-
-// 강남언니 클론코딩 포트폴리오
-
+import "../../../css/Portfolio.css";
 const Portfolio1 = () => {
-  return (
+  return (  
     <section
-      className="port1"
-      style={{
+      className="port1" style={{
         width: "100%",
         backgroundColor: "#ff540f",
         height: "600px",
@@ -20,53 +14,16 @@ const Portfolio1 = () => {
         position: "absoulte",
         top: "0px",
         transform: "translateY(1000px)",
-      }}
-    >
-      <article
-        style={{
-          width: "100%",
-          maxWidth: "950px",
-          margin: "0 auto",
-          display: "flex",
-          flexDirection: "column",
-          gap: "30px",
-        }}
-      >
-        <h1 style={{ fontSize: "50px", fontFamily: "Bold" }}>PORTFOLIO.</h1>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            width: "100%",
-            gap: "90px",
-          }}
-        >
+      }}>
+      <article className="port_container">
+        <h1 className="port_title">PORTFOLIO.</h1>
+        <div className="port_content_box">
           <ImgBox img={"강남언니.png"} />
-          <div
-            style={{
-              width: "100%",
-              display: "flex",
-              flexDirection: "column",
-              gap: "20px",
-            }}
-          >
-            <h1
-              style={{
-                fontSize: "30px",
-                textAlign: "left",
-                fontWeight: 700,
-              }}
-            >
+          <div className="port_content">
+            <h1 className="port_name">
               강남언니 클론코딩
             </h1>
-            <div
-              style={{
-                width: "100%",
-                height: "3px",
-                backgroundColor: "white",
-              }}
-            ></div>
-
+            <div className="port_line"></div>
             <PortfolioBox
               title={"제작기간"}
               value={"2024.10.25 ~ 2024.10.28"}
@@ -75,46 +32,22 @@ const Portfolio1 = () => {
             <PortfolioBox
               title={"내용"}
               value={
-                "이 웹사이트는 강남언니 공식 사이트의 PC 버전을 클론 코딩한 작품입니다. HTML과 CSS만을 사용하여 메인 페이지와 두 개의 서브페이지를 구성하고, 직관적인 디자인으로 강남언니 웹사이트를 재현했습니다."
+                "이 웹사이트는 강남언니 공식 사이트의 PC 버전을 클론 코딩한 작품입니다. HTML과 CSS만을 사용하여 메인 페이지와 두 개의 서브페이지를 구성하였습니다."
               }
             />
 
-            <div
-              style={{
-                display: "flex",
-                alignItems: "center",
-                gap: "0px",
-                padding: "15px 0px",
-              }}
-            >
-              <h3 style={{ fontSize: "20px", width: "40%" }}>기술스텍</h3>
-              <div
-                style={{
-                  width: "80%",
-                  display: "grid",
-                  gridTemplateColumns: "repeat(3,1fr)",
-                  gap: "9px",
-                }}
-              >
+            <div className="port_stack_box">
+              <h3>기술스텍</h3>
+              <div className="port_stack_content">
                 <Stack stack={"HTML"} bgcolor={"#FFC0C1"} />
                 <Stack stack={"CSS"} bgcolor={"#C0D6FF"} />
               </div>
             </div>
             <a
-              style={{ cursor: "hand" }}
-              href="https://yurim-web.github.io/gangnam/index.html" target="_blank"
+              href="https://yurim-web.github.io/gangnam/index.html"
+              target="_blank"
             >
-              <button
-                style={{
-                  width: "100%",
-                  borderRadius: "10px",
-                  padding: "20px",
-                  border: "none",
-                  boxShadow: "rgba(0, 0, 0, 0.24) 0px 3px 8px",
-                  fontSize: "20px",
-                  marginTop: "60px",
-                }}
-              >
+              <button className="port_link_btn">
                 LINK
               </button>
             </a>
@@ -122,7 +55,8 @@ const Portfolio1 = () => {
         </div>
       </article>
     </section>
-  );
-};
 
+  );
+}
+ 
 export default Portfolio1;
